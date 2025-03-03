@@ -33,7 +33,7 @@ function day1Part3() {
   pet.name = prompt("What is your pet's name?");
   pet.type = prompt("What type of pet do you have?");
 
-  messageParagraph.innerHTML = 'Your pet ${pet.name} is a ${pet.type}.';
+  messageParagraph.innerHTML = `Your pet ${pet.name} is a ${pet.type}.`;
 }
 part3.onclick = day1Part3;
 
